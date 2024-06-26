@@ -3104,7 +3104,7 @@ input, select, textarea {
 				transition-delay: 0.5s;
 				opacity: 1;
 			}
-
+			
 			#header.alt .logo {
 				-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
 				-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
@@ -3117,21 +3117,17 @@ input, select, textarea {
 				display: block;
 				margin: 0 0 1.5em 0;
 			}
-
-				#header.alt .logo img {
-					display: block;
-					margin: 0 auto;
-					max-width: 75%;
-				}
-				#header.alt .logo img {
-					display: block;
-					margin: 0 auto;
-					max-width: 75%;
-					width: 100px; /* Adjust the width as needed */
-					height: auto;
-					border-radius: 50%; /* Optional: Makes the image circular */
-					background-color: transparent; /* Ensures the background is transparent */
-				}
+			
+			#header.alt .logo img {
+				display: block;
+				margin: 0 auto;
+				max-width: 75%;
+				width: 100px; /* Adjust the width as needed */
+				height: auto;
+				border-radius: 50%; /* Optional: Makes the image circular */
+				background-color: transparent; /* Ensures the background is transparent */
+			}
+			
 				
 		@media screen and (max-width: 1280px) {
 
