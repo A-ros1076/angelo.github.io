@@ -3122,7 +3122,7 @@ input, select, textarea {
 				display: block;
 				margin: 0 auto;
 				max-width: 75%;
-				width: 100px; /* Adjust the width as needed */
+				width: 600px; /* Adjust the width as needed */
 				height: auto;
 				border-radius: 50%; /* Optional: Makes the image circular */
 				background-color: transparent; /* Ensures the background is transparent */
