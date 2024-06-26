@@ -3114,19 +3114,23 @@ input, select, textarea {
 				-webkit-transition-delay: 0s;
 				-ms-transition-delay: 0s;
 				transition-delay: 0s;
-				display: block;
+				display: flex;
 				margin: 0 0 1.5em 0;
-			}
-			
-			#header.alt .logo {
-				display: block;
 				margin: 0 auto;
-				max-width: 75%;
-				width: 600px; /* Adjust the width as needed */
-				height: auto;
-				border-radius: 50%; /* Optional: Makes the image circular */
-				background-color: transparent; /* Ensures the background is transparent */
+				margin-bottom: 20px;
+				width: 400px !important;
+				height: 400px !important;
+			
 			}
+
+				#header.alt .logo img {
+					display: flex;
+					margin: 0 auto;
+					
+
+
+					
+				}
 			
 				
 		@media screen and (max-width: 1280px) {
