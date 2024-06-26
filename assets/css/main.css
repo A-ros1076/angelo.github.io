@@ -3118,7 +3118,7 @@ input, select, textarea {
 				margin: 0 0 1.5em 0;
 			}
 			
-			#header.alt .logo img {
+			#header.alt .logo {
 				display: block;
 				margin: 0 auto;
 				max-width: 75%;
