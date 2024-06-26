@@ -2414,6 +2414,41 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image2 {
+				display: block;
+				margin: 0 0 3em 0;
+				width: 100%;
+			}
+			.image2 img {
+				width: 100%;
+			}
+	.image-container {
+				display: flex;
+				align-items: center; /* Use flexbox to arrange images side by side */
+				margin-bottom: -50px;
+		}
+			
+	.image-container .image {
+				margin-right: 10px; /* Optional margin for spacing between images */
+		}
+	.image-box {
+			width: 100px !important; /* Set the width of the box */
+			height: 100px !important; /* Set the height of the box */
+			margin-right: 10px; /* Optional margin for spacing between image boxes */
+			overflow: hidden;
+			 /* Clip images that exceed the box dimensions */
+	}
+		
+	.image-box img {
+			width: 100%; /* Make the image fill the entire box width */
+			height: 100%; /* Make the image fill the entire box height */
+			object-fit: cover; /* Maintain aspect ratio and cover the entire box */
+	}
+
+	
+
+			
+
 /* List */
 
 	ol {
@@ -2859,6 +2894,25 @@ input, select, textarea {
 
 		}
 
+
+		.circular-image {
+			width: 200px;
+			height: 200px;
+			border: 1px solid lightgray;
+			border-radius: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			overflow: hidden;
+		  }
+		  .circular-image img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		  }
+
+		
+
 /* Statistics */
 
 	.statistics {
@@ -3087,6 +3141,7 @@ input, select, textarea {
 
 		#header.alt {
 			padding: 7em 5em 4em 5em ;
+			
 		}
 
 			#header.alt h1 {
@@ -3103,8 +3158,10 @@ input, select, textarea {
 				-ms-transition-delay: 0.5s;
 				transition-delay: 0.5s;
 				opacity: 1;
-			}
 			
+				
+			}
+
 			#header.alt .logo {
 				-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
 				-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
@@ -3131,8 +3188,7 @@ input, select, textarea {
 
 					
 				}
-			
-				
+
 		@media screen and (max-width: 1280px) {
 
 			#header {
@@ -3215,6 +3271,7 @@ input, select, textarea {
 			-webkit-transform: scale(0.8) rotate(-30deg);
 			-ms-transform: scale(0.8) rotate(-30deg);
 			transform: scale(0.8) rotate(-30deg);
+			
 		}
 
 /* Nav */
